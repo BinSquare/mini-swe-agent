@@ -30,3 +30,5 @@ On top, there are a few more specialized environment classes that you can use:
 
 * **`contree`** ([`ContreeEnvironment`](../reference/environments/contree.md)) - Uses [ConTree](https://contree.dev/) for safe code execution sandboxing. Platform that built for agents and supports Git-like execution.
 
+* **`smol`** ([`SmolEnvironment`](../reference/environments/smol.md)) - Runs each task in a [smol](https://smolmachines.com) microVM, locally (macOS Apple Silicon, Linux with KVM) or in smol cloud.
+
